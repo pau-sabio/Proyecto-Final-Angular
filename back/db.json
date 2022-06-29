@@ -1,0 +1,60 @@
+{
+  "comics": [
+    {
+      "title": "Californication",
+      "author": "Red Hot Chili Peppers",
+      "company": "Warner Bros Records",
+      "cover": "https://i.discogs.com/OG7_hly7c72uv5Jk2AFhEhwD_RjMp8UwmjeUuVwghDY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4OTk3/NDAtMTQ4ODI3NDAz/Ny0zNDc0LmpwZWc.jpeg",
+      "id": 1
+    },
+    {
+      "title": "Demon Dayz",
+      "author": "Gorrillaz",
+      "cover": "https://i.discogs.com/B5nGWBco_adfy6NETO2ghjJOPmS8zDddhO4FMeTWf7A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDA4/NDk3LTE0OTMxMzIx/MDEtOTQ5OS5wbmc.jpeg",
+      "company": "Warner Bros Records",
+      "id": 2
+    },
+    {
+      "title": "Alchemy - Live",
+      "author": "Dire Straits",
+      "cover": "https://i.discogs.com/BRefUEzvcKuelaVF9Z4dMALF1DpD0PzmKWJnZQlp0Mo/rs:fit/g:sm/q:90/h:473/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MjQz/NC0xNDAwNjgxNTAx/LTc2NTYuanBlZw.jpeg",
+      "company": "Vertigo",
+      "id": 2
+    },
+    {
+      "title": "Spiral",
+      "author": "Vangelis",
+      "company": "RCA",
+      "cover": "https://i.discogs.com/sxXIcnfNRFrCDObueGGGHG76uWIlDsqtvPGmYdK25hU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzQ3/NDMtMTUxNTMzNTYw/Mi05MDY1LmpwZWc.jpeg",
+      "id": 3
+    },
+    {
+      "title": "Making Moves",
+      "author": "Dire Straits",
+      "company": "Vertigo",
+      "cover": "https://i.discogs.com/jXw4bIzZhYPtG9XLegleRSz4FZ6N7n2topLLt4TZhAk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MjQx/NS0xMTcxMTM4MzEx/LmpwZWc.jpeg",
+      "id": 4
+    },
+    {
+      "title": "Everything Not Saved Will Be Lost",
+      "author": "Foals",
+      "company": "Warner Bros Records",
+      "cover": "https://i.discogs.com/PmChLbyBbOhEHbymkh0RGfvw7m1gbq5BFsaYYRp0rdo/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMzAz/MTQ3LTE1NTE3MTI1/MDAtNTk5MS5qcGVn.jpeg",
+      "id": 5
+    },
+    {
+      "title": "Enema Of The State",
+      "author": "Blink-182",
+      "company": "Geffen Records",
+      "cover": "https://i.discogs.com/uIli5RbS3bc6WOKGoKiJWaJqak_kgAV1d4rfozQWpoA/rs:fill/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2ODQz/MDExLTE2MTAxNjMx/MjEtNDg1Mi5qcGVn.jpeg",
+      "id": 6
+    },
+    {
+      "title": "The Getaway",
+      "author": "Red Hot Chili Peppers",
+      "company": "Warner Bros Records",
+      "cover": "https://i.discogs.com/LGjzw9ejfnQQqEO8W2z6vJU7PrBq5j7I-XsGdKp37TU/rs:fill/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2NDcy/NDYtMTQ2NzI4Mzgw/OS02OTY0LmpwZWc.jpeg",
+      "id": 7
+    }
+  ]
+}

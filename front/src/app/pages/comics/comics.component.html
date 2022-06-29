@@ -1,0 +1,12 @@
+<section>
+  <h2>My Collection ({{comicList.length}})</h2>
+  <div>
+    <figure *ngFor="let comic of comicList">
+      <img src="{{ comic.cover }}" alt="{{ comic.title }}" />
+      <h3>{{ comic.title }}</h3>
+      <h4>{{ comic.author }}</h4>
+      <p>{{ comic.company }}</p>
+      <a (click)="catchComic(comic)">Edit</a>
+    </figure>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+<section>
+
+  <div class="addnew-form">
+    <div class="title-form">
+      <h2>Start your collection!<br>
+        Let's create a New LP</h2>
+      <p>Fill up the data from your new LP.</p>
+    </div>
+  <form novalidate [formGroup]="comicForm" (ngSubmit)="onSubmit()">
+    <label for="title">Title</label>
+    <input type="text" id="title" formControlName="title" />
+    <label for="author">Author</label>
+    <input type="text" id="author" formControlName="author" />
+    <label for="cover">Cover</label>
+    <input type="text" id="cover" formControlName="cover" />
+    <label for="company">Company</label>
+    <input type="text" id="company" formControlName="company" />
+    <button class="submit" type="submit">Submit</button>
+    <button class="delete" type="button" *ngIf="comicID !== ''" (click)="delete()">Delete</button>
+  </form>
+</div>
+
+</section>

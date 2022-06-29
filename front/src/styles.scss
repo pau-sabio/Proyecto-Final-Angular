@@ -1,0 +1,65 @@
+:root{
+  --mainred: #e95858;
+  --mainblack: #1c1c1c;
+  --backgroundcolor: #f6e9ca;
+  --mainyellow: #ffcd59;
+  --mainpurple: #261447;
+  --mainblue: #41a2bf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+/* Margin bottom by footer height */
+margin-bottom: 60px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainblack);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Anek Latin', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: var(--backgroundcolor);
+  color: var(--mainblack);
+  transition: all 0.8s;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  .how-it-works{
+    color: white;
+    background-color: var(--mainpurple);
+    
+    .step{
+      color: var(--mainblack);
+      background-color: white;
+      border: 2px solid var(--mainpurple);
+      box-shadow: 10px 10px 0 var(--mainyellow);
+    }
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+

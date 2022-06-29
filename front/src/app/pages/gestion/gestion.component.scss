@@ -1,0 +1,102 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  border: 2px solid var(--mainblack);
+  border-radius: 20px;
+  box-shadow: 10px 10px 0 var(--mainblack);
+  background-color: white;
+  margin-bottom: 200px;
+
+  @media screen and (min-width: 601px) {
+  margin-right: 400px;
+  margin-left: 400px;
+  }
+
+  @media screen and (max-width: 600px) {
+    
+  }
+
+  .title-form{
+    padding: 20px;
+    color: var(--mainblack);
+    border-radius: 20px;
+
+    img {
+      height: 300px;
+      object-fit: cover;
+      border-radius: 15px;
+      border: 2px solid var(--mainblack);
+      box-shadow: 10px 10px 0 var(--mainblack);
+    }
+
+    p{
+      margin-top: 20px;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+  .addnew-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+    form{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    label{
+        font-weight: 500;
+    }
+
+    input{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 2px solid var(--mainblack);
+      border-radius: 5px;
+      width: 230px;
+      padding: 10px;
+    }
+
+    .submit{
+        background-color: var(--mainblue);
+    }
+
+    .delete{
+      background-color: var(--mainred);
+    }
+
+    button{
+      margin-top: 30px;
+      color: white;
+      border: 2px solid var(--mainblack);
+      border-radius: 5px;
+      padding: 5px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1rem;
+      box-shadow: 10px 10px 0px var(--mainblack);
+      transition:
+        .4s ease-in-out transform,
+        .4s ease-in-out box-shadow;
+
+      &:hover{
+        background-color: var(--mainyellow);
+        border: 2px solid var(--mainblack);
+        color: var(--mainblack);
+        transform: translate3d(0px, -10px, 0px);
+        box-shadow: 15px 15px 0px var(--mainblack);
+        cursor: pointer;
+      }
+    }
+  }
+}
+

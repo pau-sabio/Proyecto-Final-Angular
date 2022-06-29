@@ -1,0 +1,25 @@
+footer{
+    height: 100px;
+    background-color: var(--mainyellow);
+    margin: 0 -10vw 0 -10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        color: var(--mainred);
+    }
+    
+    @media screen and (min-width: 601px) {
+        p{
+            font-size: 1vw;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        p{
+            font-size: 4vw;
+    
+        }
+    }
+}
